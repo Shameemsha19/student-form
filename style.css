@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+     padding: 20px;
+     text-align: center;
+     border: 1px solid black;
+     margin: auto;
+}
+button{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+th{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+
+th,td{
+    border: 1px solid gray;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: inline;
+}
+button:hover{
+    background-color: darkgreen;
+}
+      
